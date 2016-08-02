@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SIM_HIRO_ONE_SA_ERROR_CHARAC_SVM by rojas70</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>SIM_HIRO_ONE_SA_ERROR_CHARAC_SVM</h1>
+        <p>Data from snap assembly work in simulation with the HIRO Robot. In particular this package is focusing on SVM classification of successful and failure tasks by using the string labelled data at the MC and LLB level of the RCBHT. Location: Guangzhou, China. Dates: 2014.</p>
+
+        <p class="view"><a href="https://github.com/rojas70/SIM_HIRO_ONE_SA_ERROR_CHARAC_SVM">View the Project on GitHub <small>rojas70/SIM_HIRO_ONE_SA_ERROR_CHARAC_SVM</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/rojas70/SIM_HIRO_ONE_SA_ERROR_CHARAC_SVM/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/rojas70/SIM_HIRO_ONE_SA_ERROR_CHARAC_SVM/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/rojas70/SIM_HIRO_ONE_SA_ERROR_CHARAC_SVM">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>
+    Data from snap assembly work in simulation with the HIRO Robot. In particular this package is focusing on SVM classification of successful and failure
+    tasks by using the string labelled data at the MC of the RCBHT. Location: Guangzhou, China. Dates: 2014.
+</p>
+
+<p>
+    The data was two main folders: (i) SVM Training, Testing, and Plotting Data (ii) Preliminary data: Runs that were successful with slight variations in the
+    nominal trajectory of the robot for the Approach (1st) state. Simply record Torques, EndEffector Cartesian Position, Current Joint Angles, and a State
+    transition time vector. No SVM processing here.
+</p>
+
+<p>
+    To ensure that our input feature vector maintains the same size across different assembly trials, we construct the input feature vector as a one
+    dimensional vector that consists of a given number of labels li, across six force-torque axes Fj, for a total of 1xR(L_i \dot F_j). Each entry of the input
+    feature vector counts the total number of corresponding labels that appeared in the assembly task for the appropriate force axis. The dimension for our
+    feature vectors would be as follows: P-layer, 1xR54; MC- and LLB-layers, 1xR42.
+</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/rojas70">rojas70</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
